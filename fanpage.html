@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon"
+            type="image/png"
+            href="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG">
+        <title>Pokemon!</title>
+        <link rel="stylesheet" 
+            type="text/css" 
+            href="style.css">
+    </head>
+    <body>
+
+        <h1><center>Gotta Catch 'Em All!</center></h1>
+        <br>
+        <h2><center>#25 Pikachu</center></h2>
+        <p><center>Electric Mouse Pokemon</center></p>
+        <center><img src="http://static.pokemonpets.com/images/monsters-images-300-300/2025-Shiny-Pikachu.png" alt="Pikachu" width="150" height="142"></center>
+        <br>
+        <audio id="PikaSound" src="pikachu_notification.mp3" preload="auto"></audio>
+        <center><button style="background-color:yellow;" onclick=document.getElementById('PikaSound').play();>Pika!</button></center>
+        <br>
+        <div class="evolution">
+                <h3 class="e">Evolutions:</h3>
+                <ul>
+                    <li><a href="pichu.html">Pichu</a></li>
+                    <li class="current">Pikachu</li>
+                 <li><a href="raichu.html">Raichu</a></li>
+                </ul>
+            </div>
+        <h3 class="sm">Starting Moves:</h3>
+        <table style="width:50%">
+            <tr>
+                <th>Level Learned</th>
+                <th>Move</th>
+            </tr>
+            <tr>
+                <td>Lv.1</td>
+                <td>Tail Whip</td>
+            </tr>
+            <tr>
+                <td>Lv.1</td>
+                <td>Thunder Shock</td>
+            </tr>
+            <tr>
+                <td>Lv.5</td>
+                <td>Growl</td>
+            </tr>
+            </table>
+
+        <br>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/Ma_YkTqHh2w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br>
+        <a href="http://www.pokemonpets.com/Shiny-Pikachu-Pokemon-Pokedex-2025"
+        target="_blank">Extra Info Page</a>
+        <br>
+        <br>
+        <p> Just some fun with code. Click the buttons to change the box:</p>
+
+        <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+            
+            <button id="button1">Grow</button>
+            <button id="button2">Blue</button>
+            <button id="button3">Fade</button>
+            <button id="button4">Reset</button>
+
+            <script type="text/javascript" src="Javascript.js"></script>
+
+    </body>
+</html>
